@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:id="@+id/baslik"
+            android:paddingStart="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:id="@+id/yazar"
+            android:layout_below="@id/baslik"
+            android:paddingStart="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:id="@+id/kategori"
+            android:layout_below="@id/yazar"
+            android:paddingStart="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:id="@+id/orijinaldil"
+            android:layout_below="@id/kategori"
+            android:paddingStart="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:id="@+id/basimyili"
+            android:layout_below="@id/orijinaldil"
+            android:paddingStart="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:id="@+id/aciklama"
+            android:layout_below="@id/basimyili"
+            android:paddingStart="10dp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

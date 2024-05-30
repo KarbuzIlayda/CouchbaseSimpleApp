@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Couchbase_App</string>
+    <string name="hesapolustur">HESAP OLUŞTUR</string>
+    <string name="mailadresi">Mail adresi</string>
+    <string name="KullaniciAdi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="sifretekrar">Şifre tekrar</string>
+    <string name="sifreyi_goster">Şifreyi Göster</string>
+    <string name="kayit_ol">KAYIT OL</string>
+    <string name="girisedon">Girişe Dön</string>
+</resources>

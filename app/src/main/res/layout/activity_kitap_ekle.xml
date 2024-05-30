@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KitapEkle">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/sayfabasligi"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:text="KİTAP EKLE"
+        android:textColor="@color/cobalt_blue"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/sayfabasligi"
+        android:id="@+id/kitapadi"
+        android:paddingStart="10dp"
+        android:hint="Kitap Adı"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/kitapadi"
+        android:id="@+id/yazaradi"
+        android:paddingStart="10dp"
+        android:hint="Yazar Adı"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/yazaradi"
+        android:id="@+id/kategori"
+        android:paddingStart="10dp"
+        android:hint="Kategori"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/kategori"
+        android:id="@+id/yayimtarihi"
+        android:paddingStart="10dp"
+        android:hint="Basım Tarihi"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/yayimtarihi"
+        android:id="@+id/orijinaldil"
+        android:paddingStart="10dp"
+        android:hint="Orijinal Dil"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/orijinaldil"
+        android:id="@+id/aciklama"
+        android:paddingStart="10dp"
+        android:hint="Açıklama"
+        android:layout_marginTop="10dp"
+        android:maxLines="4"/>
+
+    <Button
+        android:id="@+id/kitapekle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KİTAP EKLE"
+        android:background="@drawable/buton_bg"
+        android:textColor="@color/white"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@id/aciklama"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

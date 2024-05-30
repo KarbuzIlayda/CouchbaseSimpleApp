@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity" >
+
+    <TextView
+        android:id="@+id/textViewHesOlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hesapolustur"
+        android:textColor="@color/cobalt_blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="100dp"
+        android:layout_above="@id/linearlayout"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/txt_box"
+            android:hint="@string/mailadresi"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editTextKulAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/txt_box"
+            android:hint="@string/KullaniciAdi"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editTextSifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/txt_box"
+            android:hint="@string/sifre"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editTextSifreOnay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/txt_box"
+            android:hint="@string/sifretekrar"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sifregoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/sifreyi_goster"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonKayitOl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kayit_ol"
+        android:background="@drawable/buton_bg"
+        android:textColor="@color/white"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@id/linearlayout"
+        android:layout_marginTop="18dp"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:id="@+id/textViewGirisDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/girisedon"
+        android:textColor="@color/cobalt_blue"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp"
+        android:textSize="26sp"
+        android:clickable="true"/>
+</RelativeLayout>
